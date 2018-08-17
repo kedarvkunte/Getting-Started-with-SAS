@@ -1,0 +1,9 @@
+DATA BEER;
+INPUT BRAND$ 1-9 ORIGIN$ 10-12 PRICE 13-17;
+CARDS;
+BudweiserUSA14.99
+Heineken NED13.99
+Corona   MEX12.99
+Guiness  IRE17.99
+;
+RUN;
